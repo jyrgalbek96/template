@@ -5,290 +5,509 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
-    <title>Грузовые перевозки</title>
+    <title>Test task</title>
 </head>
 
 <body>
-    <!-- subheader -->
-    <div class="page">
-        <header class="tophead">
-            <div class="wrapper tophead__conainer">
-                <!-- language -->
-                <nav class="language">
-                    <ul class="language__list">
-                        <li class="language__item">
-                            <a href="#" class="language__link">РУС</a>
-                        </li>
+    <!-- Block header -->
+    <header class="header">
+        <div class="wrapper">
 
-                        <li class="language__item">
-                            <a href="#" class="language__link">ENG</a>
-                        </li>
+            <!-- Block logo -->
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
 
-                        <li class="language__item">
-                            <a href="#" class="language__link">FR</a>
-                        </li>
-                    </ul>
-                </nav>
-
-                <!-- contact -->
-                <div class="contact">
-                    <a href="#" class="contact__link">8 (800) 123-45-67</a>
-                </div>
-
-                <!-- contact -->
-                <div class="contact">
-                    <a href="#" class="contact__link">sales@log.ru</a>
-                </div>
+            <!-- Block telephone -->
+            <div class="tel tel_header">
+                Телефон: <a href="tel:+78001231212" class="tel__link">8(800)-123-12-12</a>
             </div>
-        </header>
+        </div>
+    </header>
 
-        <!-- head -->
-        <header class="head">
-            <div class="wrapper head__container">
-                <div class="head__box">
-                    <!-- logo -->
-                    <div class="logo head__logo">
-                        <a href="#">
-                            <img src="img/logo.png" class="logo__img">
-                        </a>
+    <!-- Block subheader -->
+    <div class="subheader">
+        <div class="wrapper">
+            <div class="container">
+                <h1 class="title title_subheader">
+                    Эксклюзивная <span class="color-orange">фотосессия</span> при полете на вертолете
+                </h1>
+
+                <!-- Block price -->
+                <div class="price">
+                    <div class="price__box">
+                        <span class="price__text">Стоимость:</span>
+                        <span class="price__sum">1500&#8381;</span>
                     </div>
 
-                    <!-- contact -->
-                    <div class="contact">
-                        <img src="img/local.png" class="contact__icon head__icon">
-                        <a href="#" class="contact__link">Наши офисы</a>
-                    </div>
+                    <div class="price__icon">%</div>
                 </div>
 
-                <div class="head__box">
-                    <!-- menu -->
-                    <nav class="menu">
-                        <ul class="menu__list">
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Услуги</a>
-                            </li>
+                <button class="btn" id="reservations">Забронировать место</button>
+            </div>
+        </div>
+    </div>
 
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">О компании</a>
-                            </li>
+    <!-- Block photo -->
+    <div class="photo photo--customer">
+        <div class="wrapper">
+            <div class="photo__description">
+                <h3 class="title photo__title">Фотосессия<br> в вертолете</h3>
 
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Вакансии</a>
-                            </li>
+                <p class="photo__text">
+                    Полет на вертолете это прекрасная возможность получить новые ощущения! А наш замечательный
+                    фотограф запечатлит лучшие моменты
+                </p>
 
-                            <li class="menu__item">
-                                <a href="#" class="menu__link">Контакты</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <ul class="photo__list">
+                    <li class="photo__item">
+                        <img src="img/round.png" alt="round" class="icon">3 часа съемки
+                    </li>
 
-                    <img src="img/menu-button.svg" alt="" class="menu__mobile">
+                    <li class="photo__item">
+                        <img src="img/photocamera.png" alt="photocamera" class="icon">Более 50 фотографий
+                    </li>
+
+                    <li class="photo__item">
+                        <img src="img/local.png" alt="local" class="icon">Москва
+                    </li>
+
+                    <li class="photo__item">
+                        <img src="img/review.png" alt="review" class="icon">Готовы ответить на любые вопросы
+                    </li>
+                </ul>
+
+                <!-- Block rating -->
+                <div class="review review--margin_top">
+                    <img src="img/assessment.png" alt="assessment" class="icon">
+
+                    <div>
+                        Более&nbsp;<b>50</b>&nbsp;отзывов с оценкой&nbsp;&nbsp;
+
+                        <div class="achievements">
+                            <ul class="achievements__list">
+                                <li class="achievements__item"></li>
+                                <li class="achievements__item"></li>
+                                <li class="achievements__item"></li>
+                                <li class="achievements__item"></li>
+                                <li class="achievements__item"></li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </header>
 
-        <!-- lowerhead -->
-        <div class="lowerhead">
-            <div class="wrapper">
-                <div class="lowerhead__block">
-                    <h2 class="title lowerhead__title">Грузовые перевозки</h2>
-                    <p class="lowerhead__text">
-                        Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование,
-                        упаковка и хранение грузов
-                    </p>
+            <!-- Block video -->
+            <div class="video">
+                <h3 class="title photo__title mobile">Фотосессия<br> в вертолете</h3>
+
+                <div class="video__image">
+                    <img width="100%" src="image/image for video.png" alt="">
+                    <span class="video__icon"></span>
+                </div>
+
+                <iframe class="iframe" src="https://www.youtube.com/embed/9078rgkpYL0" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Block galery -->
+    <div class="galery galery--customer">
+        <div class="wrapper">
+            <h3 class="title title__galery">Фотографии пакета:</h3>
+
+            <ul class="galery__list">
+                <!-- Здесь возвращаются фотографии -->
+            </ul>
+
+            <!-- buttons -->
+            <button class="btn_show_elem gallery_btn_show_elem">
+                <span class="arrow-down"></span>
+                Показать все фото
+                <span class="arrow-down"></span>
+            </button>
+
+            <button class="btn_show_elem gallery_btn_show_elem hidden">
+                <span class="arrow-up"></span>
+                Скрыть лишние
+                <span class="arrow-up"></span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Block about us -->
+    <div class="about_us">
+        <div class="wrapper">
+            <div class="about_us__container">
+                <section class="about_us_review" data-about-text="1">
+                    <h3 class="about_us_review__title">Об организаторе:</h3>
+
+                    <!-- Block with short text -->
+                    <article class="about_us_review__text-short">
+                        <p class="about_us_review__text">
+                            Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов
+                            туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах
+                            обслуживания
+                            клиентов, специализирующихся на совместном использовании и частных турах.
+                        </p>
+
+                        <p class="about_us_review__text">
+                            Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее
+                            решение,
+                            которое соответствует бюджету
+                            и планам клиента. Мы никогда не зависим от субпоставщиков
+                            и не свяжемся…
+                        </p>
+                    </article>
+
+                    <!-- Block with full text -->
+                    <article class="about_us_review__text-full hidden">
+                        <p class="about_us_review__text">
+                            Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов
+                            туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах
+                            обслуживания
+                            клиентов, специализирующихся на совместном использовании и частных турах.
+                        </p>
+
+                        <p class="about_us_review__text">
+                            Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее
+                            решение,
+                            которое соответствует бюджету
+                            и планам клиента. Мы никогда не зависим от субпоставщиков
+                            и не свяжемся…
+                        </p>
+
+                        <p class="about_us_review__text">
+                            Всем привет! Я фотограф Мария! И по мимо фотосъемки я так же являюсь членом группы экспертов
+                            туристической отрасли, которые хорошо разбираются в маркетинге, операциях и услугах
+                            обслуживания
+                            клиентов, специализирующихся на совместном использовании и частных турах.
+                        </p>
+
+                        <p class="about_us_review__text">
+                            Сначала мы (я и моя команда) изучаем интересы клиентов, а затем придумываем подходящее
+                            решение,
+                            которое соответствует бюджету
+                            и планам клиента. Мы никогда не зависим от субпоставщиков
+                            и не свяжемся…
+                        </p>
+                    </article>
+
+                    <a class="btn-show-yet about_us_review__btn">Читать еще<span class="arrow-down"></span></a>
+                </section>
+
+                <section class="about_us_review" data-about-text="2">
+                    <h3 class="about_us_review__title">Что я предоставлю:</h3>
+
+                    <!-- Block with short text -->
+                    <article class="about_us_review__text-short">
+                        <p class="about_us_review__text">
+                            Встречу вас на машине после длительного перелёта.  Качественный подбор места и локации для
+                            вашей съемки.  При необходимости всегда возможно прерваться на обед/ужин. Более 50
+                            фотографий
+                            на выходе с обработкой и замечательные впечатления о Дубае ! 
+                        </p>
+                    </article>
+
+                    <!-- Block with full text -->
+                    <article class="about_us_review__text-full hidden">
+                        <p class="about_us_review__text">
+                            Встречу вас на машине после длительного перелёта.  Качественный подбор места и локации для
+                            вашей съемки.  При необходимости всегда возможно прерваться на обед/ужин. Более 50
+                            фотографий
+                            на выходе с обработкой и замечательные впечатления о Дубае ! 
+                        </p>
+
+                        <p class="about_us_review__text">
+                            Встречу вас на машине после длительного перелёта.  Качественный подбор места и локации для
+                            вашей съемки.  При необходимости всегда возможно прерваться на обед/ужин. Более 50
+                            фотографий
+                            на выходе с обработкой и замечательные впечатления о Дубае ! 
+                        </p>
+
+                        <p class="about_us_review__text">
+                            Встречу вас на машине после длительного перелёта.  Качественный подбор места и локации для
+                            вашей съемки.  При необходимости всегда возможно прерваться на обед/ужин. Более 50
+                            фотографий
+                            на выходе с обработкой и замечательные впечатления о Дубае ! 
+                        </p>
+                    </article>
+
+                    <a class="btn-show-yet about_us_review__btn">Читать еще<span class="arrow-down"></span></a>
+                </section>
+            </div>
+
+            <!-- Block photograph -->
+            <div class="about_us__container">
+                <div class="photograph photograph--customer">
+                    <span class="photograph__icon"></span>
+
+                    <img src="image/user1.png" class="photograph__img">
+
+                    <div class="photograph__box">
+                        <span class="photograph__name">Марина Иванова</span>
+                        <br><span class="photograph__prof">Фотограф</span>
+
+                        <p>
+                            <a href="" class="btn-show-yet photograph__btn">Показать еще</a>
+                            <a href="" class="btn-show-yet photograph__btn">Информация о фотографе</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- content -->
-        <main class="content">
-            <section class="section transportation">
-                <div class="wrapper transportation__container">
-                    <div class="transportation__info">
-                        <div class="line line--margin"></div>
-                        <h2 class="title">Грузоперевозки по европе</h2>
-                        <p class="transportation__text">
-                            Страны Евросоюза, а также Украина, Белоруссия со всеми документами.
+    <!-- Block filming -->
+    <div class="filming filming--customer">
+        <div class="wrapper">
+            <h3 class="filming__title">Доступная съемка<br>в ближайшее время:</h3>
+
+            <div class="filming-schedule">
+                <div class="filming-schedule__block">
+                    <date class="filming-schedule__text filming-schedule__text--customer">
+                        Пятница, 14 сентября
+                        <img src="img/calendar.png" class="icon" style="margin-left: 14px;">
+                    </date>
+                </div>
+
+                <div class="filming-schedule__block filming-schedule__block--flex">
+                    <div class="filming-schedule__box">
+                        <time class="filming-schedule__text">
+                            15:00 - 18:00
+                        </time>
+
+                        <p class="filming-schedule__text bold">
+                            1500&#8381;
                         </p>
 
-                        <button class="transportation__btn">Подробнее</button>
-                    </div>
-
-                    <!-- transportation image block -->
-                    <div class="transportation__img">
-                        <img src="image/galery/img1.png" alt="">
-                    </div>
-
-                    <div class="transportation__control">
-                        <a href="" class="transportation__link">след.<img src="img/arrow next.png" alt=""
-                                class="transportation__icon" style="margin-left: 31px;"></a>
-                        <a href="" class="transportation__link"><img src="img/arrow previous.png" alt=""
-                                class="transportation__icon" style="margin-right: 31px;">назад</a>
-                    </div>
-                </div>
-            </section>
-
-            <!-- services -->
-            <section class="section services">
-                <div class="wrapper">
-                    <!-- line -->
-                    <div class="line line--margin"></div>
-                    <h2 class="title">Услуги</h2>
-
-                    <!-- service card -->
-                    <div class="service_card service_card--margin_top">
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-
-                        <div class="service_card__item">
-                            <div class="service_card__rangle">
-                                <img src="img/the plane.png" alt="" class="service_card__img">
-                            </div>
-
-                            <p class="service_card__text">Авиаперевозки</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="section company">
-                <div class="wrapper company__container">
-
-                    <div class="company__info">
-                        <!-- line -->
-                        <div class="line line--margin"></div>
-                        <h2 class="title">О компании</h2>
-                        <p class="company__text">
-                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
-                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
-                            В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов,
-                            используя Lorem Ipsum для распечатки образцов. Lorem Ipsum не только успешно пережил без
-                            заметных изменений пять веков, но и перешагнул в электронный дизайн.
+                        <p class="filming-schedule__text">
+                            Осталось — 1 место
                         </p>
                     </div>
 
-                    <!-- company card -->
-                    <div class="company_card">
-                        <div class="company_card__item">
-                            <p class="company_card__count">48</p>
-                            <p class="company_card__name">офисов</p>
-                            <p class="company_card__subname">В Европе и СНГ</p>
-                        </div>
-
-                        <div class="company_card__item">
-                            <p class="company_card__count">361</p>
-                            <p class="company_card__name">грузовиков</p>
-                            <p class="company_card__subname">Volvo, Scania</p>
-                        </div>
-
-                        <div class="company_card__item">
-                            <!-- There img -->
-                        </div>
-                        <div class="company_card__item">
-                            <!-- There img -->
-                        </div>
-
-                        <div class="company_card__item">
-                            <p class="company_card__count company_card__count--size_sm">1500</p>
-                            <p class="company_card__name">сотрудников</p>
-                            <p class="company_card__subname">профессионалов </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- map -->
-        <iframe class="map"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12075.179706455936!2d-74.13979450000001!3d40.8324679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sus!4v1569767889699!5m2!1sru!2sus"
-            frameborder="0" allowfullscreen=""></iframe>
-
-        <!-- footer -->
-        <footer class="footer">
-            <div class="wrapper footer__container">
-                <div class="footer__box">
-                    <!-- logo -->
-                    <div class="logo">
-                        <a href="">
-                            <img src="img/logo2.png" class="logo__img">
-                        </a>
-                    </div>
-
-                    <div class="contact">
-                        <!-- address -->
-                        <address class="address">123456, Санкт-Петербург, Невский пр-кт 127</address>
-                        <a href="#" class="contact__link footer__link color_black">sales@log.ru</a>
+                    <div class="filming-schedule__box">
+                        <button class="btn btn--customer">Выбрать</button>
                     </div>
                 </div>
 
-                <div class="footer__box">
-                    <div class="contact">
-                        <a href="#" class="contact__link footer__link">8 (800) 123-45-67</a>
-                        <br><a href="#" class="contact__link footer__link">8 (800) 123-45-67</a>
+                <div class="filming-schedule__block filming-schedule__block--flex">
+                    <div class="filming-schedule__box">
+                        <time class="filming-schedule__text">
+                            19:00 - 22:00
+                        </time>
+
+                        <p class="filming-schedule__text bold">
+                            1500&#8381;
+                        </p>
+
+                        <p class="filming-schedule__text">
+                            Осталось — 1 место
+                        </p>
                     </div>
 
-                    <div class="contact">
-                        <!-- developer -->
-                        <a href="#" class="contact__link footer__link color_black">Разработано - D-E-N.ru</a>
+                    <div class="filming-schedule__box">
+                        <button class="btn btn--customer">Выбрать</button>
+                    </div>
+
+                    <!-- Block rating -->
+                    <div class="review review_filming-schedule">
+                        <img src="img/assessment.png" alt="assessment" class="icon">
+                        <div>
+                            Более&nbsp;<b>50</b>&nbsp;отзывов с оценкой&nbsp;&nbsp;
+
+                            <div class="achievements">
+                                <ul class="achievements__list">
+                                    <li class="achievements__item"></li>
+                                    <li class="achievements__item"></li>
+                                    <li class="achievements__item"></li>
+                                    <li class="achievements__item"></li>
+                                    <li class="achievements__item"></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
     </div>
+
+    <!-- Block map -->
+    <div class="map">
+        <iframe class="map__iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d577336.7651402194!2d36.82511187482546!3d55.5807479975808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2skg!4v1569171059318!5m2!1sru!2skg"
+            frameborder="0" style="border:0;" allowfullscreen="">
+        </iframe>
+    </div>
+
+    <!-- Block reviews -->
+    <div class="reviews">
+        <div class="wrapper">
+            <h3 class="reviews__title">Отзывы:</h3>
+
+            <!-- Здесь возвращаются отзывы -->
+
+            <span id="reviews"></span>
+
+            <!-- Block button reviews -->
+            <div class="reviews__btn">
+                <button class="btn_show_elem" id="reviews__btn-show">
+                    <span class="arrow-down"></span>
+                    Показать все
+                    <span class="reviews__count">...</span>
+                    <span class="arrow-down"></span>
+                </button>
+
+                <button class="btn_show_elem hidden" id="reviews__btn-hide">
+                    <span class="arrow-up"></span>
+                    Скрыть лишние
+                    <span class="arrow-up"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Block footer -->
+    <footer class="footer">
+        <div class="wrapper">
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+            </a>
+
+            <!-- Block social -->
+            <nav class="social">
+                <ul class="social__list">
+                    <a href="" class="social__link">
+                        <li class="social__item vk"></li>
+                    </a>
+
+                    <a href="" class="social__link">
+                        <li class="social__item fb"></li>
+                    </a>
+
+                    <a href="" class="social__link">
+                        <li class="social__item in"></li>
+                    </a>
+
+                    <a href="#" class="language">
+                        ru
+                        <span class="arrow-down"></span>
+                    </a>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Block subfooter -->
+    <footer class="subfooter">
+        <div class="wrapper">
+
+            <!-- Block cart -->
+            <ul class="cart">
+                <div class="cart__container">
+                    <a href="" class="cart__link">
+                        <li class="cart__item mc"></li>
+                    </a>
+
+                    <a href="" class="cart__link">
+                        <li class="cart__item visa"></li>
+                    </a>
+                </div>
+
+                <!-- Block language -->
+                <a href="#" class="language lm">
+                    ru
+                    <span class="arrow-down"></span>
+                </a>
+            </ul>
+
+            <!-- Block site -->
+            <div class="site site--customer">
+                <p class="site__text">Тех. поддержка: <a class="site__link" href="tel: +78007000000">8(800)700-00-00</a>
+                </p>
+
+                <p class="site__text">© 2018 HELYFLY. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Block shadow -->
+    <div class="shadow">
+
+        <!-- Block modal window -->
+        <div class="modal">
+            <img src="img/close.png" alt="" class="modal__icon modal__icon--close" id="close">
+            <span class="clearFix"></span>
+            <h2 class="modal__title">Бронирование</h2>
+
+            <form action="#">
+                <div class="modal__block">
+                    <span class="modal__name">Дата</span><span class="requred">*</span>
+                    <input type="date" required class="modal__input">
+                    <img src="img/calendar-m.png" alt="" class="modal__icon modal__icon--calendar">
+                </div>
+                <span class="clearFix"></span>
+
+                <div class="modal__block">
+                    <span class="modal__name">Email</span><span class="requred">*</span>
+                    <input type="email" required placeholder="Электронная почта" class="modal__input">
+                </div>
+
+                <div class="modal__block">
+                    <span class="modal__name">Имя</span><span class="requred">*</span>
+                    <input type="text" required placeholder="Иван" class="modal__input">
+                </div>
+
+                <div class="modal__block">
+                    <span class="modal__name">Фамилия</span><span class="requred">*</span>
+                    <input type="text" required placeholder="Громов" class="modal__input">
+                </div>
+
+                <div class="modal__block">
+                    <span class="modal__name">Телефон</span><span class="requred">*</span>
+                    <input type="text" required placeholder="+7 (905) 184-81-40" class="modal__input">
+                </div>
+
+                <div class="modal__block">
+                    <span class="modal__name">Данные карты</span><span class="requred">*</span>
+                    <input type="text" maxlength="12" required pattern="[0-9]{12}" placeholder="Номер карты"
+                        class="modal__input modal__input--border-radius">
+
+                    <div class="modal__box">
+                        <input type="text" maxlength="5" required pattern="[0-9]{2}/[0-9]{2}"
+                            placeholder="Срок действия" class="modal__input modal__input--size_m">
+                        <input type="text" maxlength="4" required pattern="[0-9]{4}" placeholder="CVV"
+                            class="modal__input modal__input--size_m">
+                    </div>
+                </div>
+
+                <div class="user_agreement">
+                    <label>
+                        <input type="checkbox" required class="user_agreement__input">
+                    </label>
+
+                    <p class="user_agreement__text">
+                        Я согласен с пользовательским
+                        соглашением и публичной офертой
+                    </p>
+                </div>
+
+                <button class="modal_btn">Забронировать</button>
+            </form>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
